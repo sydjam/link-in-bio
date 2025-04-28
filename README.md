@@ -1,3 +1,3 @@
 # Link-in-bio project
 
-Created a static HTML portfolio website and deployed on Render.
+Built a static HTML portfolio website to showcase important links and deployed it using Render for public access.
