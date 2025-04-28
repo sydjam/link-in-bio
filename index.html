@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sydney J's Links</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
   <style>
     html {
       min-height: 100%;
@@ -16,6 +20,8 @@
       padding-bottom: 40px;
       background: linear-gradient(0deg, #96745d, #ad8460, #c39463, #d7a766, #e9ba6c, #f7cf7c, #fde6a5, #fffbe9);
       color: rgba(255, 255, 255, 1);
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 16px;
     }
 
     .avatar-image {
@@ -33,11 +39,12 @@
     }
 
     a {
-      rgba(255, 255, 255, 1)
+      color: rgba(255, 255, 255, 1);
+      text-decoration: none;
     }
 
     .item {
-      background-color: rgba(253, 224, 165, 0.2);
+      background-color:rgba(253, 224, 165, 0.2);
       margin-bottom: 30px;
       display: flex;
       align-items: center;
@@ -56,12 +63,20 @@
     .name-row {
       margin-bottom: 30px;
       text-align: center;
+      font-family: "Playfair Display", serif;
+      font-size: 48px;
+      font-weight: 900;
     }
 
     .social-icons-row {
       margin-bottom: 30px;
       display: flex;
       justify-content: space-around;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
     }
   </style>
 </head>
@@ -77,30 +92,32 @@
     </div>
 
     <div class="social-icons-row">
-      <a href="https://www.linkedin.com/in/sydney-james-00/" target="blank"> LinkedIn
+      <a href="https://www.linkedin.com/in/sydney-james-00/" target="blank">
+        <i class="fa-brands fa-linkedin-in"></i> LinkedIn
       </a>
-      <a href="https://github.com/sydjam" target="blank"> GitHub
+      <a href="https://github.com/sydjam" target="blank"> 
+        <i class="fa-brands fa-github"></i> GitHub
       </a>
 
       <div class="links-row">
         <div class="item">
           <img class="thumbnail" src="/gvo.jpg" alt="Good Vibes Only">
 
-          <a href="https://dev.to/sydjam" target="blank"> TIL Blog
+          <a class="link-text" href="https://dev.to/sydjam" target="blank"> TIL Blog
           </a>
         </div>
 
         <div class="item">
           <img class="thumbnail" src="/itech.jpg" alt="Rainbow Keyboard">
 
-          <a href="https://sjames22.wixsite.com/therapy-in-tech" target="blank"> Therapy In Tech
+          <a class="link-text" href="https://sjames22.wixsite.com/therapy-in-tech" target="blank"> Therapy In Tech
           </a>
         </div>
 
         <div class="item">
           <img class="thumbnail" src="/mhm.jpg" alt="Mental Health Matters">
 
-          <a href="https://www.blackonblacktherapy.com/" target="blank"> Black On Black Therapy
+          <a class="link-text" href="https://www.blackonblacktherapy.com/" target="blank"> Black On Black Therapy
           </a>
         </div>
       </div>
